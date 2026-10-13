@@ -1,0 +1,61 @@
+{
+  "runs": [
+    {
+      "n": 100000,
+      "true_distinct": 36702,
+      "exact_s": 0.1290467000217177,
+      "exact_peak_bytes": 3925492,
+      "fm_estimate": 68139.14043776486,
+      "fm_s": 2.8305027000023983,
+      "fm_peak_bytes": 3874,
+      "fm_ratio": 1.856551153554707
+    },
+    {
+      "n": 200000,
+      "true_distinct": 73410,
+      "exact_s": 0.3477310000162106,
+      "exact_peak_bytes": 5760939,
+      "fm_estimate": 90852.18725035315,
+      "fm_s": 5.932382400002098,
+      "fm_peak_bytes": 3730,
+      "fm_ratio": 1.2375996083687937
+    },
+    {
+      "n": 400000,
+      "true_distinct": 146970,
+      "exact_s": 0.5748347000044305,
+      "exact_peak_bytes": 11591158,
+      "fm_estimate": 136278.28087552972,
+      "fm_s": 11.450699599983636,
+      "fm_peak_bytes": 3636,
+      "fm_ratio": 0.9272523703853148
+    },
+    {
+      "n": 1600000,
+      "true_distinct": 587625,
+      "exact_s": 2.1689256000099704,
+      "exact_peak_bytes": 46647432,
+      "fm_estimate": 545113.1235021189,
+      "fm_s": 44.85845210001571,
+      "fm_peak_bytes": 3652,
+      "fm_ratio": 0.9276547517585516
+    }
+  ],
+  "machine": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "AMD64 Family 25 Model 97 Stepping 3, AuthenticAMD",
+    "python": "3.14.7",
+    "cpu_model": "AMD Ryzen 5 7500X3D 6-Core Processor",
+    "ram_bytes": 33457094656,
+    "other_programs": "VS Code and browser",
+    "measured_on": "2026-10-13"
+  },
+  "exact_stress_run": {
+    "n": 51200000,
+    "true_distinct": 18799271,
+    "exact_s": 76.93614700000035,
+    "exact_peak_bytes": 1523129281,
+    "fm_measured": false,
+    "stop_reason": "exact-only stress test exceeded one minute; process working set observed above 3.2 GB"
+  }
+}
