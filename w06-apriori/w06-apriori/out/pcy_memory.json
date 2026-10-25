@@ -1,0 +1,167 @@
+{
+  "bucket_trials": [
+    {
+      "baskets": 20000,
+      "support": 50,
+      "frequent_pairs": 6397,
+      "peak_counters": 820259,
+      "peak_bytes": 107931993,
+      "seconds_with_tracing": 17.895729600000777,
+      "n_buckets": 16384,
+      "bucket_bytes": 65536,
+      "bitmap_bytes": 2048,
+      "frequent_buckets": 16384,
+      "exact_counts": true
+    },
+    {
+      "baskets": 20000,
+      "support": 50,
+      "frequent_pairs": 6397,
+      "peak_counters": 84925,
+      "peak_bytes": 10030744,
+      "seconds_with_tracing": 13.978460600001199,
+      "n_buckets": 131072,
+      "bucket_bytes": 524288,
+      "bitmap_bytes": 16384,
+      "frequent_buckets": 11661,
+      "exact_counts": true
+    },
+    {
+      "baskets": 20000,
+      "support": 50,
+      "frequent_pairs": 6397,
+      "peak_counters": 7243,
+      "peak_bytes": 8867049,
+      "seconds_with_tracing": 14.401138100000026,
+      "n_buckets": 2097152,
+      "bucket_bytes": 8388608,
+      "bitmap_bytes": 262144,
+      "frequent_buckets": 6466,
+      "exact_counts": true
+    }
+  ],
+  "crossover": [
+    {
+      "baskets": 100,
+      "baseline": {
+        "baskets": 100,
+        "support": 50,
+        "frequent_pairs": 0,
+        "peak_counters": 0,
+        "peak_bytes": 56072,
+        "seconds_with_tracing": 0.00046969999857537914
+      },
+      "pcy": {
+        "baskets": 100,
+        "support": 50,
+        "frequent_pairs": 0,
+        "peak_counters": 0,
+        "peak_bytes": 8748257,
+        "seconds_with_tracing": 0.5757600999986607
+      },
+      "exact_counts": true
+    },
+    {
+      "baskets": 1000,
+      "baseline": {
+        "baskets": 1000,
+        "support": 50,
+        "frequent_pairs": 59,
+        "peak_counters": 1078,
+        "peak_bytes": 199912,
+        "seconds_with_tracing": 0.014300900000307593
+      },
+      "pcy": {
+        "baskets": 1000,
+        "support": 50,
+        "frequent_pairs": 59,
+        "peak_counters": 59,
+        "peak_bytes": 8857425,
+        "seconds_with_tracing": 0.8165594000001875
+      },
+      "exact_counts": true
+    },
+    {
+      "baskets": 5000,
+      "baseline": {
+        "baskets": 5000,
+        "support": 50,
+        "frequent_pairs": 823,
+        "peak_counters": 50168,
+        "peak_bytes": 6841192,
+        "seconds_with_tracing": 0.24655669999992824
+      },
+      "pcy": {
+        "baskets": 5000,
+        "support": 50,
+        "frequent_pairs": 823,
+        "peak_counters": 823,
+        "peak_bytes": 8860561,
+        "seconds_with_tracing": 2.6958897999993496
+      },
+      "exact_counts": true
+    },
+    {
+      "baskets": 10000,
+      "baseline": {
+        "baskets": 10000,
+        "support": 50,
+        "frequent_pairs": 2286,
+        "peak_counters": 212340,
+        "peak_bytes": 27030056,
+        "seconds_with_tracing": 0.8958769999990182
+      },
+      "pcy": {
+        "baskets": 10000,
+        "support": 50,
+        "frequent_pairs": 2286,
+        "peak_counters": 2325,
+        "peak_bytes": 8862505,
+        "seconds_with_tracing": 5.60204209999938
+      },
+      "exact_counts": true
+    },
+    {
+      "baskets": 20000,
+      "baseline": {
+        "baskets": 20000,
+        "support": 50,
+        "frequent_pairs": 6397,
+        "peak_counters": 820259,
+        "peak_bytes": 107881264,
+        "seconds_with_tracing": 2.887987100000828
+      },
+      "pcy": {
+        "baskets": 20000,
+        "support": 50,
+        "frequent_pairs": 6397,
+        "peak_counters": 7243,
+        "peak_bytes": 8866873,
+        "seconds_with_tracing": 14.166504900000291
+      },
+      "exact_counts": true
+    }
+  ],
+  "rules": {
+    "highest": [
+      1468,
+      0,
+      0.8387096774193549,
+      1.2824306994179737
+    ],
+    "reverse": [
+      0,
+      1468,
+      0.003975535168195718,
+      1.2824306994179737
+    ],
+    "singleton_counts": {
+      "1468": 62,
+      "0": 13080
+    },
+    "frequent_singletons": 1849,
+    "possible_surviving_pairs": 1708476,
+    "brute_force_pairs": 1999000
+  },
+  "measurement": "tracemalloc algorithm allocations including output; input baskets and reference answers prebuilt and excluded. Not total process RAM. Crossover uses fixed support 50 and prefixes of seed-246 data."
+}

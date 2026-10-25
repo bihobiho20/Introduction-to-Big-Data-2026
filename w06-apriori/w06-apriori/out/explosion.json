@@ -1,0 +1,91 @@
+{
+  "runs": [
+    {
+      "support": 400,
+      "frequent_pairs": 249,
+      "peak_counters": 10585,
+      "seconds": 0.47625329999937094,
+      "peak_bytes": 1147004,
+      "recorded_at_utc": "2026-10-25T16:09:29.930719+00:00"
+    },
+    {
+      "support": 200,
+      "frequent_pairs": 776,
+      "peak_counters": 58626,
+      "seconds": 0.7729982000000746,
+      "peak_bytes": 6714064,
+      "recorded_at_utc": "2026-10-25T16:09:30.705260+00:00"
+    },
+    {
+      "support": 100,
+      "frequent_pairs": 2244,
+      "peak_counters": 273701,
+      "seconds": 1.5894683999995323,
+      "peak_bytes": 28565040,
+      "recorded_at_utc": "2026-10-25T16:09:32.296801+00:00"
+    },
+    {
+      "support": 50,
+      "frequent_pairs": 6397,
+      "peak_counters": 820259,
+      "seconds": 2.2075175999998464,
+      "peak_bytes": 107747800,
+      "recorded_at_utc": "2026-10-25T16:09:34.508391+00:00"
+    },
+    {
+      "support": 25,
+      "frequent_pairs": 17045,
+      "peak_counters": 893456,
+      "seconds": 2.3398844999992434,
+      "peak_bytes": 107744896,
+      "recorded_at_utc": "2026-10-25T16:09:36.853303+00:00"
+    },
+    {
+      "support": 12,
+      "frequent_pairs": 43116,
+      "peak_counters": 893456,
+      "seconds": 2.427966600000218,
+      "peak_bytes": 109847456,
+      "recorded_at_utc": "2026-10-25T16:09:39.287454+00:00"
+    },
+    {
+      "support": 6,
+      "frequent_pairs": 101938,
+      "peak_counters": 893456,
+      "seconds": 2.5125483000010718,
+      "peak_bytes": 126485192,
+      "recorded_at_utc": "2026-10-25T16:09:41.810356+00:00"
+    },
+    {
+      "support": 3,
+      "frequent_pairs": 250054,
+      "peak_counters": 893456,
+      "seconds": 3.465819899998678,
+      "peak_bytes": 163721152,
+      "recorded_at_utc": "2026-10-25T16:09:45.307134+00:00"
+    },
+    {
+      "support": 1,
+      "frequent_pairs": 893456,
+      "peak_counters": 893456,
+      "seconds": 4.76363400000082,
+      "peak_bytes": 334153232,
+      "recorded_at_utc": "2026-10-25T16:09:50.148910+00:00"
+    }
+  ],
+  "machine": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "AMD Ryzen 5 7500X3D 6-Core Processor",
+    "python": "3.14.7",
+    "logical_cpus": 12,
+    "ram_bytes": 33457094656,
+    "available_ram_bytes": 17096134656
+  },
+  "dataset": {
+    "seed": 246,
+    "baskets": 20000,
+    "items": 2000,
+    "average_draws": 20
+  },
+  "measurement": "tracemalloc peak of algorithm allocations, excluding prebuilt baskets; elapsed time includes tracing overhead, not total process RAM"
+}

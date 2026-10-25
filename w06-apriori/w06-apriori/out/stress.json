@@ -1,0 +1,116 @@
+{
+  "machine": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "AMD Ryzen 5 7500X3D 6-Core Processor",
+    "python": "3.14.7",
+    "logical_cpus": 12,
+    "ram_bytes": 33457094656,
+    "available_ram_bytes": 18760835072
+  },
+  "recorded_at_utc": "2026-10-25T16:50:54.538085+00:00",
+  "dataset": {
+    "baskets": 100000,
+    "items": 20000,
+    "seed": 246,
+    "average_draws": 20,
+    "distribution": "Zipf exponent 0.8; same planted-pair rule as bench"
+  },
+  "budget": {
+    "peak_python_bytes": 1073741824,
+    "algorithm_seconds": 60,
+    "check_interval_baskets": 256,
+    "checked_after_result": true
+  },
+  "measurement": "Additional traced Python allocations, including output, excluding prebuilt input. Elapsed time includes tracing/checks, excludes generation. Budget stop is NOT a physical RAM exhaustion measurement. Interrupted runs have no final frequent-pair answer.",
+  "runs": [
+    {
+      "support": 400,
+      "status": "completed",
+      "stop_reason": null,
+      "frequent_pairs": 708,
+      "peak_counters": 144009,
+      "peak_bytes": 15369132,
+      "seconds": 2.3871628000015335,
+      "pass_number": 2,
+      "baskets_completed_in_pass": 100000
+    },
+    {
+      "support": 200,
+      "status": "completed",
+      "stop_reason": null,
+      "frequent_pairs": 2001,
+      "peak_counters": 628203,
+      "peak_bytes": 62481896,
+      "seconds": 4.8870133999989775,
+      "pass_number": 2,
+      "baskets_completed_in_pass": 100000
+    },
+    {
+      "support": 100,
+      "status": "completed",
+      "stop_reason": null,
+      "frequent_pairs": 5522,
+      "peak_counters": 1953391,
+      "peak_bytes": 216082104,
+      "seconds": 8.210042699998667,
+      "pass_number": 2,
+      "baskets_completed_in_pass": 100000
+    },
+    {
+      "support": 50,
+      "status": "completed",
+      "stop_reason": null,
+      "frequent_pairs": 15102,
+      "peak_counters": 4727736,
+      "peak_bytes": 475391648,
+      "seconds": 13.619455000000016,
+      "pass_number": 2,
+      "baskets_completed_in_pass": 100000
+    },
+    {
+      "support": 25,
+      "status": "completed",
+      "stop_reason": null,
+      "frequent_pairs": 41182,
+      "peak_counters": 9166159,
+      "peak_bytes": 933573832,
+      "seconds": 20.302329899999677,
+      "pass_number": 2,
+      "baskets_completed_in_pass": 100000
+    },
+    {
+      "support": 12,
+      "status": "completed",
+      "stop_reason": null,
+      "frequent_pairs": 121415,
+      "peak_counters": 10170828,
+      "peak_bytes": 1020707968,
+      "seconds": 21.865238799999133,
+      "pass_number": 2,
+      "baskets_completed_in_pass": 100000
+    },
+    {
+      "support": 6,
+      "status": "completed",
+      "stop_reason": null,
+      "frequent_pairs": 325860,
+      "peak_counters": 10172348,
+      "peak_bytes": 1070208224,
+      "seconds": 26.787457800000993,
+      "pass_number": 2,
+      "baskets_completed_in_pass": 100000
+    },
+    {
+      "support": 3,
+      "status": "completed_over_budget",
+      "stop_reason": "python_allocation_budget",
+      "frequent_pairs": 947587,
+      "peak_counters": 10172348,
+      "peak_bytes": 1235958488,
+      "seconds": 23.113245699998515,
+      "pass_number": 2,
+      "baskets_completed_in_pass": 100000,
+      "budget_checked_after_result": true
+    }
+  ]
+}
